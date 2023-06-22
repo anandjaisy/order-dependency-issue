@@ -3,6 +3,8 @@ package fete.bird.service;
 import fete.bird.entities.Order;
 import fete.bird.interfaces.IOrderRepository;
 import fete.bird.interfaces.IOrderService;
+import io.micronaut.context.annotation.Import;
+import io.micronaut.context.annotation.Infrastructure;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
 

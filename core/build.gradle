@@ -1,5 +1,6 @@
 plugins {
     id 'java-library'
+    id("io.micronaut.application") version "3.7.10"
 }
 
 group = 'fete.bird'
@@ -17,7 +18,7 @@ dependencies {
     implementation "io.micronaut:micronaut-inject:${micronautVersion}"
     implementation "io.micronaut:micronaut-validation:${micronautVersion}"
 
-    api 'fete.bird:common:0.0.0'
+//    api 'fete.bird:common:0.0.0'
 
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
